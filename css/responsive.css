@@ -1,0 +1,379 @@
+
+
+@media (max-width: 1599px) {
+
+}
+
+@media (max-width: 1399px) {
+
+  
+	
+
+}
+
+@media (max-width: 1199px) {
+
+/* 
+=============================
+header secr=tion
+=============================
+*/
+
+	.main-menu ul li:not(:last-child){
+	   margin-right: 30px;
+}
+/* 
+==============================
+hero secr=tion
+==============================
+*/
+	.hero-text h1{
+		font-size: 51px;
+
+	}
+	.hero-text p{
+		margin: 10px 0 25px;
+
+	}
+	.service-box{
+		 min-height: 232px;
+     
+}
+	.service-box p{
+		font-size: 16px;
+	}
+     
+  
+/* 
+================================
+garden secrtion
+================================
+*/ 
+	.garden-box{
+
+	 min-height: 274px;
+	
+}
+ /*
+ ==========================
+     counter up section 
+ ==========================
+ */
+  .counter-item p:last-of-type{
+     font-size: 16px;
+   }
+
+  
+
+	
+
+    /* 
+=============================
+footer secr=tion
+=============================
+*/
+
+	.footer-content h3{
+		font-size: 20px;
+	}
+
+}
+@media (max-width: 991px) {
+
+/* 
+=============================
+	header secrtion
+=============================
+*/
+	nav{
+		padding: 30px 0 !important;
+	}
+	.menu-toggle-btn{
+		z-index:9999;
+	}
+	.main-menu{
+		position: fixed;
+		width: 50%;
+		top:0;
+	  right:-100%;
+		background:#73b21a;
+		padding: 30px;
+		height: 100%;
+		-webkit-transition: all .5s linear;
+		-o-transition: all .5s linear;
+		transition: all .5s linear;
+		min-height: 100vh;
+		z-index: 999;
+	}
+	.main-menu ul li:not(:last-child){
+	 	 margin: 10px 0;
+	 }
+	.main-menu ul li a{
+	 	color:#ffffff !important;
+	 }
+	.open-menu{
+	 	right: 0;
+	 }
+ /* 
+ ============================
+ hero secrtion
+ ============================
+	*/
+	.hero-text h1{
+
+		font-size: 36px;
+
+	}
+	 
+ /*
+ ============================
+ service  section  
+ ============================
+  */
+  .service-details p{
+      	font-size: 16px;
+      }
+  .service-box{
+	   min-height: 200px;
+     }
+
+
+ /*
+ ============================
+ Lanscapping section  
+ ============================
+ */
+  .open-video img{
+		  width: 100%;
+	}
+ /*
+ ============================
+ team section  
+ ============================
+ */
+	.team-img img{
+		width: 100%;
+
+	}
+
+  
+}
+
+@media (max-width: 767px) {
+ /*
+  ==============================
+  Reuseable Components
+  ==============================
+  */
+  .service-section,
+  .meet-section,
+  .gallery-section,
+  .slider-section,
+  .news-section{
+   padding: 65px 0 70px;
+  }
+
+
+ /*
+  ==============================
+  hero section  
+  ==============================
+  */
+  .hero-section{
+   	padding: 80px 0px;
+}
+	.hero-text h1{
+		font-size: 41px;
+		margin-bottom: 20px;
+	}
+	 /* 
+	================================
+	garden secrtion
+	================================
+	*/
+	.garden-section{
+		padding: 60px 0 80px ;
+	}
+	.garden-box{
+		
+	 min-height: auto;
+  }
+   .btn-area button:not(:last-of-type){
+   	margin-right: 23px;
+
+   }
+ /* 
+	================================
+	lnd-section
+	================================
+	*/
+   .lnd-section{
+   	padding: 40px 0 70px;
+
+   }
+ /* 
+	================================
+	service secrtion
+	================================
+	*/
+ .service-icon{
+ 	margin: 0;
+ 	margin-bottom: 15px;
+  }
+
+ .service-box {
+    padding: 21px 23px;
+  }
+  .service-box {
+    min-height: 295px;
+  }
+  .service-details p{
+   margin-top: 10px;
+  }
+
+  /* 
+	================================
+	 counter secrtion
+	================================
+	*/
+   .counter-section{
+   	padding: 70px 0 60px;
+
+   }
+
+  /* 
+	================================
+	header secrtion
+	================================
+	*/
+  .copyright-text{
+  	margin-bottom:15px ;
+  }
+  footer{
+  	padding-top:70px ;
+  }
+}
+
+
+@media (max-width: 575px) {
+
+
+	/* 
+	==============================
+	font size
+	==============================
+	*/
+
+
+ .font-size-35{
+   font-size: 30px;
+  }
+	/* 
+	==============================
+	header secr=tion
+	==============================
+	*/
+
+
+	.main-menu{
+		width: 80%;
+	}
+	.search-box{
+		min-width: 300px;
+		padding: 15px !important;
+
+	}
+   
+ /* 
+	================================
+	hero secrtion
+	================================
+	*/
+	.hero-text h1 {
+     font-size: 32px;
+    
+    }
+
+
+   /* 
+	================================
+	hero secrtion
+	================================
+	*/
+   .lnd-contant p:first-child{
+   	font-size: 18px;
+
+   }
+
+ /* 
+	================================
+  gallary secrtion
+	================================
+	*/
+	.gallary-img img{
+		width: 100%;
+	}
+
+  /* 
+	================================
+  news secrtion
+	================================
+	*/
+	.news-img img{
+		width: 100%;
+
+	}
+	/* 
+	================================
+  fotter secrtion
+	================================
+	*/
+ .useful-links{
+ 	margin: 0;
+ 	margin-left: 30px;
+
+ }
+  
+
+}
+@media (max-width:518px) {
+
+ /* 
+	================================
+  lnd-section secrtion
+	================================
+	*/
+
+
+   .list-content ul: first-child{
+   	margin-right: 25px;
+
+}
+
+
+}
+@media (max-width:473px) {
+
+ /* 
+	================================
+  lnd-section secrtion
+	================================
+	*/
+    .list-content {
+    	-webkit-box-orient: vertical;
+    	-webkit-box-direction: normal;
+    	    -ms-flex-direction: column ;
+    	        flex-direction: column ;
+
+    }
+
+   .list-content ul: first-child{
+   	margin-right: 0;
+   	margin-bottom: 4px;
+
+}
+.footer-content{
+	    margin-left: 0px;
+}
+
+}
