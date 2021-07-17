@@ -111,6 +111,9 @@ footer secr=tion
 	.main-menu ul li a{
 	 	color:#ffffff !important;
 	 }
+	.main-menu ul li a:hover{
+	 	background-color: #dddddd;
+	 }
 	.open-menu{
 	 	right: 0;
 	 }
