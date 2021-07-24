@@ -239,7 +239,7 @@ hr {
  .search-box input,
  .search-box input::placeholder{
 
- 	background: #ffffff ;
+ 	background: #ffffff !important ;
  	font-size:16px ;
  	font-family: 'Open Sans 400';
  	color:  #151515;
