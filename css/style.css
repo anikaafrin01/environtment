@@ -777,6 +777,7 @@ hr {
   z-index: 999;
   width: 45px;
   height: 45px;
+  border-radius: 50%;
  
 }
 #myBtn:focus{
