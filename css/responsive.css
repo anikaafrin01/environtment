@@ -95,7 +95,7 @@ footer secr=tion
 		position: fixed;
 		width: 50%;
 		top:0;
-	  right:-100%;
+	  left:-100%;
 		background:#73b21a;
 		padding: 30px;
 		height: 100%;
@@ -111,11 +111,11 @@ footer secr=tion
 	.main-menu ul li a{
 	 	color:#ffffff !important;
 	 }
-	.main-menu ul li a:hover{
+	 .main-menu ul li a:hover{
 	 	background-color: #dddddd;
 	 }
 	.open-menu{
-	 	right: 0;
+	 	left: 0;
 	 }
  /* 
  ============================

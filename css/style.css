@@ -239,7 +239,7 @@ hr {
  .search-box input,
  .search-box input::placeholder{
 
- 	background: #ffffff !important ;
+ 	background: #ffffff ;
  	font-size:16px ;
  	font-family: 'Open Sans 400';
  	color:  #151515;
@@ -527,7 +527,7 @@ hr {
 	height: 100%;
 	background: linear-gradient(rgba(115, 177, 26, 0.6),rgba(51, 51, 48, 0.7));
 	position: absolute;
-	left: 0;
+	left:0;
 	bottom: -100%;
 	z-index: 11;
 }
@@ -760,7 +760,9 @@ hr {
 
 }
 
-
+.post-text a:hover{
+	color: #73b21a;
+}
 /*
 ================================
  footer end
@@ -778,6 +780,7 @@ hr {
   width: 45px;
   height: 45px;
   border-radius: 50%;
+ 
 }
 #myBtn:focus{
 	background: #4B7017;
